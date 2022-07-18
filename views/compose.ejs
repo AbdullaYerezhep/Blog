@@ -1,0 +1,14 @@
+<%-include('partials/header') %>
+<h1>Create a post</h1>
+<form action="" method="post">
+    <div class="mb-3">
+        <label class="form-label" for="">Title</label>
+        <input class="form-control" type="text" name="title">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="">Text</label>
+        <textarea class="form-control" type="text" name="text" rows="3"></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit" name="post" value="post">Post</button>
+</form>
+<%-include('partials/footer') %>
